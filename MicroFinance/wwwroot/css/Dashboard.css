@@ -1,0 +1,51 @@
+﻿/* Default negative margin Right */
+.mr-negative-106 {
+    margin-right: -106px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .mr-negative-106-md {
+        margin-right: -106px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mr-negative-106-lg {
+        margin-right: -106px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mr-negative-106-xl {
+        margin-right: -106px;
+    }
+}
+
+/* Default negative margin Left */
+.ml-negative-111 {
+    margin-left: -111px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .ml-negative-111-md {
+        margin-left: -111px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .ml-negative-106-lg {
+        margin-left: -111px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .ml-negative-111-xl {
+        margin-left: -111px;
+    }
+}
