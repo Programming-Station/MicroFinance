@@ -6,7 +6,8 @@ namespace MicroFinance.Models
     {
         public int MemberId { get; set; }
         public string ?MemberName { get; set; }
-       
+        public string ?MemberMobileNum { get; set; }
+
         public string? MemberIdentityUrl { get; set; }
        
         public string? MemberDocumentId { get; set; } // ForenKey banan hai
@@ -17,6 +18,7 @@ namespace MicroFinance.Models
         public string? ConformAccountNumber { get; set; }
         public string? MemberBankName { get; set; }
         public string? MemberBankBranche { get; set; }
+        public string ?IFSC_Code { get; set; }
         public string? LoanAmount { get; set; }
         public DateOnly CreateDate { get; set; }
         public string? States { get; set; }

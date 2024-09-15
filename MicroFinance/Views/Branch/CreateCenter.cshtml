@@ -1,0 +1,66 @@
+﻿<link href="~/css/dashboard.css" rel="stylesheet" />
+<!-- MDB CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-xxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous">
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Create Branch</h5>
+        <section class="section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-4 mb-4">
+                                        <!-- Name input -->
+                                        <div data-mdb-input-init class="form-outline">
+                                            <input type="text" id="txtBranch" class="form-control" />
+                                            <label class="form-label" for="txtBranch">Branch</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 mb-4">
+                                        <!-- Name input -->
+                                        <div data-mdb-input-init class="form-outline">
+                                            <input type="text" id="txtcentername" class="form-control" />
+                                            <label class="form-label" for="txtcentername">Center Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-4">
+                                        <!-- Name input -->
+                                        <div data-mdb-input-init class="form-outline">
+                                            <input type="text" id="txtState" class="form-control" />
+                                            <label class="form-label" for="txtState">State</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 mb-4">
+                                        <!-- Name input -->
+                                        <div data-mdb-input-init class="form-outline">
+                                            <input type="text" id="txtcity" class="form-control" />
+                                            <label class="form-label" for="txtcity">City</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4 pt-2">
+                                    <input data-mdb-ripple-init class="btn btn-primary btn-lg" id="btnsubmit" onclick="return fillloanform();" type="button" value="Submit" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<!-- MDB JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+
+<script>
+    // Initialization for ES Users
+    import { Input, initMDB } from "mdb-ui-kit";
+
+    initMDB({ Input });
+</script>

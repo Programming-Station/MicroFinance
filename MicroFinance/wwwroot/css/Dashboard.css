@@ -20,7 +20,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .mr-negative-106-xl {
-        margin-right: -106px;
+        margin-right: -49px;
     }
 }
 
@@ -39,7 +39,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .ml-negative-106-lg {
-        margin-left: -111px;
+        margin-left: -45px;
     }
 }
 
